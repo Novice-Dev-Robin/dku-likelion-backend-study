@@ -111,6 +111,8 @@ public class UserRegister {
             } else if (register_again.equalsIgnoreCase("n")) {
                 System.exit(0);
             }
+
+            sc.close();
         }
     }
 }
